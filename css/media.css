@@ -1,0 +1,37 @@
+@media (max-width: 375px) {
+  .header {
+    background-image: url('../img/bg-img-mobile.png');
+  }
+
+  .header__wrapper {
+    padding: 85px 0 71px;
+  }
+
+  .products__item-table {
+    width: 100%;
+  }
+
+  .products__item-table:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .products__item-table:nth-child(n + 2) {
+    display: none;
+  }
+
+  .products__item {
+    width: 100%;
+  }
+
+  .products__item:not(:nth-child(3n)) {
+    margin-right: 0;
+  }
+
+  .products__item:nth-child(n + 4) {
+    display: none;
+  }
+
+  .products__order {
+    padding: 10px 141px;
+  }
+}
