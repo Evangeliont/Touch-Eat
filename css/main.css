@@ -43,7 +43,7 @@ address {
 }
 
 body {
-  min-width: 320px;
+  min-width: 360px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -250,6 +250,10 @@ body {
   padding: 8px 8px 8px 12px;
 }
 
+.card__content {
+  margin-right: 20px;
+}
+
 .card__title {
   margin: 0;
   margin-bottom: 5px;
@@ -268,6 +272,7 @@ body {
 }
 
 .card__img {
+  margin-left: auto;
   object-fit: contain;
 }
 
